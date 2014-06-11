@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">RotTom</string>
-	<string name="rottentomatoes_api_key">fxa2utyk3a6thymfhhvfcuxb</string>
+	<string name="rottentomatoes_api_key">_API_KEY_HERE_</string>
 
 	<string name="boxoffice_tab_title">Box Office</string>
 	<string name="opening_tab_title">Opening</string>
