@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="72.6dp"
+            android:layout_height="127.8dp"
+            android:id="@+id/movieImage"
+            android:layout_marginRight="5.7dp"
+            android:layout_marginLeft="5.7dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/movieImage"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="Title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/movieTitle" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout3">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout5">
+                    <RelativeLayout
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/relativeLayout4">
+                        <ImageView
+                            android:src="@android:drawable/ic_menu_gallery"
+                            android:layout_width="52.0dp"
+                            android:layout_height="52.0dp"
+                            android:id="@+id/criticTomato" />
+                        <TextView
+                            android:text="xx%"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/criticTomato"
+                            android:id="@+id/criticScore"
+                            android:layout_below="@id/criticScore"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="9.7dp" />
+                    </RelativeLayout>
+                    <TextView
+                        android:text="of critics liked it  "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_width="125.5dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/criticsBlurb" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout6">
+                    <RelativeLayout
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/relativeLayout3">
+                        <ImageView
+                            android:src="@android:drawable/ic_menu_gallery"
+                            android:layout_width="52.0dp"
+                            android:layout_height="52.0dp"
+                            android:id="@+id/userPopcorn" />
+                        <TextView
+                            android:text="xx%"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/userPopcorn"
+                            android:id="@+id/usersScore"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="9.7dp" />
+                    </RelativeLayout>
+                    <TextView
+                        android:text="of users liked it  "
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_width="118.4dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/usersBlurb" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:text="Actor1, Actor2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/movieActors" />
+            <TextView
+                android:text="MPAA rating, H hr. MM min."
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingAndRuntime" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:text="Movie Info"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoBlurb" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout7">
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/synopsis"
+                android:text="Synopsis: " />
+            <TextView
+                android:text="Director: "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/directorName" />
+            <TextView
+                android:text="Genres: "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/movieGenres" />
+            <TextView
+                android:text="Theater Release: "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/releaseDate" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

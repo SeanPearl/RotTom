@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout2">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="92.0dp"
+            android:id="@+id/movieImage"
+            android:layout_marginRight="5.7dp"
+            android:layout_marginLeft="5.7dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/movieImage">
+            <TextView
+                android:text="Movie Title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/movieTitle" />
+            <RelativeLayout
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayout1"
+                android:orientation="vertical">
+                <ImageView
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="32.0dp"
+                    android:layout_height="32.0dp"
+                    android:id="@+id/criticTomato" />
+                <TextView
+                    android:text="xx%"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/criticTomato"
+                    android:id="@+id/criticScore"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="9.7dp" />
+            </RelativeLayout>
+            <TextView
+                android:text="Actor 1, Actor 2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/movieActors" />
+            <TextView
+                android:text="MPAA Rating, x hr xx min."
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingAndRuntime" />
+            <TextView
+                android:text="Mmm DD, YYYY"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/releaseDate" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

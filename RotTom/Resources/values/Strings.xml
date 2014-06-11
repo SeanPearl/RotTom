@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">RotTom</string>
+	<string name="rottentomatoes_api_key">fxa2utyk3a6thymfhhvfcuxb</string>
+
+	<string name="boxoffice_tab_title">Box Office</string>
+	<string name="opening_tab_title">Opening</string>
+	<string name="intheaters_tab_title">In Theaters</string>
+	<string name="upcoming_tab_title">Upcoming</string>
+
+	<string name="movieinfo_tab_title">Movie</string>
+	<string name="moviecast_tab_title">Cast</string>
+	<string name="moviecritics_tab_title">Critics</string>
+
+	<string name="boxoffice_activity_title">Top Box Office</string>
+	<string name="opening_activity_title">Opening This Week</string>
+	<string name="intheatres_activity_title">Also In Theatres</string>
+	<string name="upcoming_activity_title">Coming Soon</string>
+</resources>
